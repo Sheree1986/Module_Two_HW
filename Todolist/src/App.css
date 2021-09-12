@@ -1,0 +1,95 @@
+
+* { 
+
+margin: 0;
+padding: 0;
+font-family:sans-serif
+}
+
+body {
+background: black;
+}
+
+.list-box {
+display: flex;
+flex-direction: column;
+flex: start;
+width: 500px;
+min-height: 400px;
+background: #032029;
+text-align: center;
+margin:  auto;
+border-radius: 10px;
+padding-bottom: 60px;
+}
+
+h1 {
+margin: 32px 0;
+color: rgb(63, 222, 228);
+font-size: 18px;
+}
+
+.finish {
+text-decoration: line-through;
+opacity: 0.4;
+}
+
+
+
+.form-update {
+border: 2px solid #863916;
+outline: none;
+width: 350px;
+background: transparent;
+color: #fff;
+}
+
+.form.update::placeholder {
+color: #e2e2e2;
+}
+
+.add-value {
+padding: 5px;
+border: none;
+border-radius: 0;
+cursor: pointer;
+outline: none;
+background: rgb(127, 87, 173);
+color: #fff;
+}
+
+.form-update {
+border: solid plum;
+}
+
+.form-update.change {
+background:  rgb(127, 87, 173);
+
+}
+
+.list-container {
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+.list-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+background: transparent;
+border: 2px solid blueviolet;
+margin: 10px 60px 10px 20px;
+padding: 5px;
+width: 440px;
+}
+
+.delete-icon, .edit-icon {
+  display: flex;
+  justify-content: space-evenly;
+color: rgb(218, 98, 178);
+background:rgb(63, 222, 228);
+}
+
+
