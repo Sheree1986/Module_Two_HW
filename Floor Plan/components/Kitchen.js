@@ -2,7 +2,7 @@ import React from "react";
 import Sink from "./Sink";
 import Oven from "./Oven";
 
-function Kitchen(props) {
+function Kitchen() {
   return (
     <div>
       <h1>Kitchen</h1>
