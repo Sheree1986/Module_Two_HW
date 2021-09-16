@@ -1,6 +1,6 @@
 import React from "react";
 
-function Oven(props) {
+function Oven() {
   return (
     <div>
       <h1>Oven</h1>
